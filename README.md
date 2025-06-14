@@ -28,13 +28,13 @@ PORT=5000
 
 # Start the server
 npm run dev
-
-**2. Authentication**
+```
+### 🔐 2. Authentication
 Details on authentication endpoints and how JWT is used.
 
-2.1 *POST /register*
+### 📌 2.1 *POST /register*  
 Registers a new user.
-
+```bash
 -Request
 
 [POST](http://localhost:3000/api/users/register)
@@ -43,10 +43,11 @@ Registers a new user.
 "password": "securepassword"
 }
 
-
-2.2 *POST /login*
+```
+### 📌 2.2 *POST /login*
 Logs in an existing user and returns a JWT.
 
+```bash
 -Request
 
 [POST](http://localhost:3000/api/users/login)
@@ -54,15 +55,16 @@ Logs in an existing user and returns a JWT.
   "username": "KamalPerera",
   "password": "securepassword"
 }
+```
 
-
-3. **Product Endpoints**
+### 📦 3. Product Endpoints
 
 CRUD operations for managing products.
 
-3.1 *POST /products*
+### 📌 3.1 *POST /products*
 Creates a new product. (Requires JWT)
 
+```bash
 -Headers
 Authorization: Bearer <JWT_TOKEN>
 
@@ -73,33 +75,35 @@ Authorization: Bearer <JWT_TOKEN>
   "price": 570,
   "quantity": 20
 }
-
-3.2 *GET /products*
+```
+### 📌 3.2 *GET /products*
 Lists all products.
 
+```bash
 -Request
 [GET](http://localhost:3000/api/products)
+```
 
-
-3.3 *GET /product*
+### 📌 3.3 *GET /product*
 Get a specific product details.
-
+```bash
 -Request
 [GET] (http://localhost:3000/api/products/684c65c12fb36e239662e53c)
+```
 
-
-3.4 *PUT /product*
+### 📌 3.4 *PUT /product*
 Updates a specific product.
-
+```bash
 -Request
 [PUT] (http://localhost:3000/api/products/684c65c12fb36e239662e53c)
 {
   "price": 4000,
   "quantity": 40
 }
-
-3.5 *DELETE /products*
+```
+### 📌 3.5 *DELETE /products*
 Deletes a specific product.
-
+```bash
 -Request
 [DELETE] (http://localhost:3000/api/products/684c65c12fb36e239662e53c)
+```
