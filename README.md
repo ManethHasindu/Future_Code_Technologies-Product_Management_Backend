@@ -1,20 +1,23 @@
-**FuturecodeAPI - Developer & User Guide**
+# 🚀 FuturecodeAPI - Developer & User Guide
 
-**Name: M.A. Maneth Pankaja Hasindu
-University of Ruhuna**
+**👤 Name:** M.A. Maneth Pankaja Hasindu  
+**🏫 University of Ruhuna**
 
-FuturecodeAPI is a RESTful API built with Node.js, Express, MongoDB, and JWT for secure user authentication and product management.
+> **FuturecodeAPI** is a RESTful API built with **Node.js**, **Express**, **MongoDB**, and **JWT** for secure user authentication and product management.
 
-**1. Project Setup**
+---
 
-_Prerequisites_
+## 🛠️ 1. Project Setup
+
+### ✅ Prerequisites
 
 - Node.js (v14+)
-- Express.js 
+- Express.js
 - MongoDB (local or cloud instance)
 
-_Installation_
+### 📦 Installation
 
+```bash
 # Install dependencies
 npm install
 
