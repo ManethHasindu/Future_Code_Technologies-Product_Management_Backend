@@ -30,7 +30,7 @@ PORT=5000
 npm run dev
 ```
 ### 🔐 2. Authentication
-Details on authentication endpoints and how JWT is used.
+JWT is used for the Authentication.
 
 
 ### 👤 3. User Endpoints
