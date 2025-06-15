@@ -116,6 +116,9 @@ Authorization: Bearer <JWT_TOKEN>
 ### 📌 4.5 *Delete a Product*
 Deletes a specific product.
 ```bash
+-Headers
+Authorization: Bearer <JWT_TOKEN>
+
 -Request
 [DELETE](http://localhost:3000/api/products/684c65c12fb36e239662e53c)
 ```
