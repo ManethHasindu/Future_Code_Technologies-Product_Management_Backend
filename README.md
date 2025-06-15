@@ -113,7 +113,7 @@ Authorization: Bearer <JWT_TOKEN>
   "quantity": 40
 }
 ```
-### 📌 3.5 *Delete a Product*
+### 📌 4.5 *Delete a Product*
 Deletes a specific product.
 ```bash
 -Request
