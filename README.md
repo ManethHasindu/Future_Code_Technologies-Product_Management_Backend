@@ -97,7 +97,7 @@ Get a specific product details.
 Authorization: Bearer <JWT_TOKEN>
 
 -Request
-[GET] (http://localhost:3000/api/products/684c65c12fb36e239662e53c)
+[GET](http://localhost:3000/api/products/684c65c12fb36e239662e53c)
 ```
 
 ### 📌 4.4 *Edit Details of a Product*
@@ -107,7 +107,7 @@ Updates a specific product.
 Authorization: Bearer <JWT_TOKEN>
 
 -Request
-[PUT] (http://localhost:3000/api/products/684c65c12fb36e239662e53c)
+[PUT](http://localhost:3000/api/products/684c65c12fb36e239662e53c)
 {
   "price": 4000,
   "quantity": 40
@@ -117,5 +117,5 @@ Authorization: Bearer <JWT_TOKEN>
 Deletes a specific product.
 ```bash
 -Request
-[DELETE] (http://localhost:3000/api/products/684c65c12fb36e239662e53c)
+[DELETE](http://localhost:3000/api/products/684c65c12fb36e239662e53c)
 ```
