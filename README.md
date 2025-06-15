@@ -83,6 +83,9 @@ Authorization: Bearer <JWT_TOKEN>
 Lists all products.
 
 ```bash
+-Headers
+Authorization: Bearer <JWT_TOKEN>
+
 -Request
 [GET](http://localhost:3000/api/products)
 ```
@@ -90,6 +93,9 @@ Lists all products.
 ### 📌 4.3 *Get a Product using product_id*
 Get a specific product details.
 ```bash
+-Headers
+Authorization: Bearer <JWT_TOKEN>
+
 -Request
 [GET] (http://localhost:3000/api/products/684c65c12fb36e239662e53c)
 ```
@@ -97,6 +103,9 @@ Get a specific product details.
 ### 📌 4.4 *Edit Details of a Product*
 Updates a specific product.
 ```bash
+-Headers
+Authorization: Bearer <JWT_TOKEN>
+
 -Request
 [PUT] (http://localhost:3000/api/products/684c65c12fb36e239662e53c)
 {
