@@ -32,7 +32,10 @@ npm run dev
 ### 🔐 2. Authentication
 Details on authentication endpoints and how JWT is used.
 
-### 📌 2.1 *User Registration*  
+
+### 👤 3. User Endpoints
+
+### 📌 3.1 *User Registration*  
 Registers a new user.
 ```bash
 -Request
@@ -44,7 +47,7 @@ Registers a new user.
 }
 
 ```
-### 📌 2.2 *User login*
+### 📌 3.2 *User login*
 Logs in an existing user and returns a JWT.
 
 ```bash
@@ -57,11 +60,11 @@ Logs in an existing user and returns a JWT.
 }
 ```
 
-### 📦 3. Product Endpoints
+### 📦 4. Product Endpoints
 
 CRUD operations for managing products.
 
-### 📌 3.1 *Create a Product*
+### 📌 4.1 *Create a Product*
 Creates a new product. (Requires JWT)
 
 ```bash
@@ -76,7 +79,7 @@ Authorization: Bearer <JWT_TOKEN>
   "quantity": 20
 }
 ```
-### 📌 3.2 *Get all Products*
+### 📌 4.2 *Get all Products*
 Lists all products.
 
 ```bash
@@ -84,14 +87,14 @@ Lists all products.
 [GET](http://localhost:3000/api/products)
 ```
 
-### 📌 3.3 *Get a Product using product_id*
+### 📌 4.3 *Get a Product using product_id*
 Get a specific product details.
 ```bash
 -Request
 [GET] (http://localhost:3000/api/products/684c65c12fb36e239662e53c)
 ```
 
-### 📌 3.4 *Edit Details of a Product*
+### 📌 4.4 *Edit Details of a Product*
 Updates a specific product.
 ```bash
 -Request
